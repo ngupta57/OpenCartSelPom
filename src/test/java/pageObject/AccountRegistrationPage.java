@@ -36,5 +36,60 @@ public class AccountRegistrationPage extends BasePage {
 	
 	@FindBy(xpath=" //input[@value='Continue' and @class='btn btn-primary']")
 	WebElement bttn_Continue;
+	@FindBy(xpath = "//h1[normalize-space()='Your Account Has Been Created!']")
+	WebElement msgConfirmation;
+	
+	//Methods
+	
+	public void setFirstName(String fName) {
+		txt_firstName.sendKeys(fName);
+	}
+	public void setlastName(String lName) {
+		txt_lastName .sendKeys(lName);
+	}
+	public void seteMail(String eMail) {
+		txt_email.sendKeys(eMail);
+	}
+	public void setTelPhone(String tNum) {
+		txt_telephone.sendKeys(tNum);
+	}
+	public void setPassword(String Pass) {
+		txt_password.sendKeys(Pass);		
+	}
+	public void confirmPass(String Pass) {
+		txt_confirmPassword.sendKeys(Pass);		
+	}
+	public void checkPPolicy() {
+		chkBox_privacyPolicy.click();
+	}
+	public void clickContinue() {
+		bttn_Continue.click();
+		//sol2 
+		//btnContinue.submit();
+		
+		//sol3
+		//Actions act=new Actions(driver);
+		//act.moveToElement(btnContinue).click().perform();
+					
+		//sol4
+		//JavascriptExecutor js=(JavascriptExecutor)driver;
+		//js.executeScript("arguments[0].click();", btnContinue);
+		
+		//Sol 5
+		//btnContinue.sendKeys(Keys.RETURN);
+		
+		//Sol6  
+		//WebDriverWait mywait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		//mywait.until(ExpectedConditions.elementToBeClickable(btnContinue)).click();		
+	
+	}
+	    public String getConfirmMessage() {
+	    	try {
+		return (msgConfirmation.getText());
+	}catch (Exception e){
+	    	return e.getMessage();
+	    	}
+		
+	
 
-}
+}}
