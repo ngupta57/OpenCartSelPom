@@ -34,7 +34,7 @@ public class AccountRegistrationPage extends BasePage {
 	@FindBy(xpath="//input[@type='checkbox' and @name='agree']")
 	WebElement chkBox_privacyPolicy;
 	
-	@FindBy(xpath=" //input[@value='Continue' and @class='btn btn-primary']")
+	@FindBy(xpath="//input[@value='Continue']")
 	WebElement bttn_Continue;
 	@FindBy(xpath = "//h1[normalize-space()='Your Account Has Been Created!']")
 	WebElement msgConfirmation;
@@ -87,7 +87,7 @@ public class AccountRegistrationPage extends BasePage {
 	    	try {
 		return (msgConfirmation.getText());
 	}catch (Exception e){
-	    	return e.getMessage();
+	    	return (e.getMessage());
 	    	}
 		
 	
