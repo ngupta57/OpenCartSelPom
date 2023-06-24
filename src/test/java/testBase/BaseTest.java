@@ -1,7 +1,5 @@
-package testCases;
-
+package testBase;
 import java.time.Duration;
-
 import org.apache.commons.lang3.RandomStringUtils;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -15,7 +13,7 @@ public class BaseTest{
 	public void setUp() throws InterruptedException
 	{	//ChromeOptions options=new ChromeOptions();
 		//options.setExperimentalOption("excludeSwitches",new String[] {"enable-automation"});	
-		WebDriverManager.chromedriver().setup();		
+		  WebDriverManager.chromedriver().setup();		
 		  ChromeOptions chromeOptions = new ChromeOptions();
 		  chromeOptions.addArguments("--remote-allow-origins=*","ignore-certificate-errors");
 		  driver =new ChromeDriver(chromeOptions);
