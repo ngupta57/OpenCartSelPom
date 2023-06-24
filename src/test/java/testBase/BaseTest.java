@@ -1,6 +1,8 @@
 package testBase;
 import java.time.Duration;
 import org.apache.commons.lang3.RandomStringUtils;
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -9,9 +11,13 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseTest{	
 	public WebDriver driver;
+	
+	public Logger logger;
 	@BeforeClass
 	public void setUp() throws InterruptedException
-	{	//ChromeOptions options=new ChromeOptions();
+	{	
+		logger = LogManager.getLogger(this.getClass());
+		//ChromeOptions options=new ChromeOptions();
 		//options.setExperimentalOption("excludeSwitches",new String[] {"enable-automation"});	
 		  WebDriverManager.chromedriver().setup();		
 		  ChromeOptions chromeOptions = new ChromeOptions();
@@ -43,8 +49,7 @@ public class BaseTest{
 	
 	public String randomAlphaNumeric() {
 		String st = RandomStringUtils.randomAlphabetic(4);
-		String num = RandomStringUtils.randomNumeric(3);
-		
+		String num = RandomStringUtils.randomNumeric(3);		
 		return (st+"@"+num);
 	}	
 
