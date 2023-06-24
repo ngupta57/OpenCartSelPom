@@ -10,3 +10,51 @@
 22:18:46.795 [main] INFO  testCases.TC001AccountRegistrationTest - ********- Navigating to registraion page--TC001AccountRegistrationTest---***
 22:18:47.004 [main] INFO  testCases.TC001AccountRegistrationTest - ********-providing data in to registration form for --TC001AccountRegistrationTest---***
 22:18:49.472 [main] INFO  testCases.TC001AccountRegistrationTest - ********-validating registraion success message --TC001AccountRegistrationTest---***
+07:57:15.123 [main] INFO  testCases.TC001AccountRegistrationTest - ********-Starting-execution for --TC001AccountRegistrationTest---***
+07:57:15.129 [main] INFO  testCases.TC001AccountRegistrationTest - ********- Navigating to registraion page--TC001AccountRegistrationTest---***
+07:57:15.418 [main] INFO  testCases.TC001AccountRegistrationTest - ********-providing data in to registration form for --TC001AccountRegistrationTest---***
+07:57:17.895 [main] INFO  testCases.TC001AccountRegistrationTest - ********-validating registraion success message --TC001AccountRegistrationTest---***
+08:10:50.231 [main] INFO  testCases.TC001AccountRegistrationTest - ********-Starting-execution for --TC001AccountRegistrationTest---***
+08:10:50.238 [main] INFO  testCases.TC001AccountRegistrationTest - ********- Navigating to registraion page--TC001AccountRegistrationTest---***
+08:10:50.424 [main] INFO  testCases.TC001AccountRegistrationTest - ********-providing data in to registration form for --TC001AccountRegistrationTest---***
+08:10:52.857 [main] INFO  testCases.TC001AccountRegistrationTest - ********-validating registraion success message --TC001AccountRegistrationTest---***
+08:22:43.258 [main] INFO  testCases.TC001AccountRegistrationTest - ********-Starting-execution for --TC001AccountRegistrationTest---***
+08:22:43.265 [main] INFO  testCases.TC001AccountRegistrationTest - ********- Navigating to registraion page--TC001AccountRegistrationTest---***
+08:22:43.443 [main] INFO  testCases.TC001AccountRegistrationTest - ********-providing data in to registration form for --TC001AccountRegistrationTest---***
+08:22:45.873 [main] INFO  testCases.TC001AccountRegistrationTest - ********-validating registraion success message --TC001AccountRegistrationTest---***
+08:33:56.861 [main] INFO  testCases.TC001AccountRegistrationTest - ********-Starting-execution for --TC001AccountRegistrationTest---***
+08:33:56.867 [main] INFO  testCases.TC001AccountRegistrationTest - ********- Navigating to registraion page--TC001AccountRegistrationTest---***
+08:33:57.055 [main] INFO  testCases.TC001AccountRegistrationTest - ********-providing data in to registration form for --TC001AccountRegistrationTest---***
+08:33:59.487 [main] INFO  testCases.TC001AccountRegistrationTest - ********-validating registraion success message --TC001AccountRegistrationTest---***
+08:35:33.170 [main] INFO  testCases.TC001AccountRegistrationTest - ********-Starting-execution for --TC001AccountRegistrationTest---***
+08:35:33.177 [main] INFO  testCases.TC001AccountRegistrationTest - ********- Navigating to registraion page--TC001AccountRegistrationTest---***
+08:35:33.360 [main] INFO  testCases.TC001AccountRegistrationTest - ********-providing data in to registration form for --TC001AccountRegistrationTest---***
+08:35:35.832 [main] INFO  testCases.TC001AccountRegistrationTest - ********-validating registraion success message --TC001AccountRegistrationTest---***
+09:00:45.758 [main] INFO  testCases.TC001AccountRegistrationTest - ********-Starting-execution for --TC001AccountRegistrationTest---***
+09:00:45.765 [main] INFO  testCases.TC001AccountRegistrationTest - ********- Navigating to registraion page--TC001AccountRegistrationTest---***
+09:00:45.979 [main] INFO  testCases.TC001AccountRegistrationTest - ********-providing data in to registration form for --TC001AccountRegistrationTest---***
+09:00:48.433 [main] INFO  testCases.TC001AccountRegistrationTest - ********-validating registraion success message --TC001AccountRegistrationTest---***
+09:00:54.978 [main] INFO  testCases.TC001AccountRegistrationTest - ********-Starting-execution for --TC001AccountRegistrationTest---***
+09:00:54.978 [main] INFO  testCases.TC001AccountRegistrationTest - ********- Navigating to registraion page--TC001AccountRegistrationTest---***
+09:00:55.402 [main] INFO  testCases.TC001AccountRegistrationTest - ********-providing data in to registration form for --TC001AccountRegistrationTest---***
+09:00:57.912 [main] INFO  testCases.TC001AccountRegistrationTest - ********-validating registraion success message --TC001AccountRegistrationTest---***
+09:04:03.617 [TestNG-tests-1] INFO  testCases.TC001AccountRegistrationTest - ********-Starting-execution for --TC001AccountRegistrationTest---***
+09:04:03.624 [TestNG-tests-1] INFO  testCases.TC001AccountRegistrationTest - ********- Navigating to registraion page--TC001AccountRegistrationTest---***
+09:04:03.821 [TestNG-tests-1] INFO  testCases.TC001AccountRegistrationTest - ********-providing data in to registration form for --TC001AccountRegistrationTest---***
+09:04:04.618 [TestNG-tests-2] INFO  testCases.TC001AccountRegistrationTest - ********-Starting-execution for --TC001AccountRegistrationTest---***
+09:04:04.619 [TestNG-tests-2] INFO  testCases.TC001AccountRegistrationTest - ********- Navigating to registraion page--TC001AccountRegistrationTest---***
+09:04:05.017 [TestNG-tests-2] INFO  testCases.TC001AccountRegistrationTest - ********-providing data in to registration form for --TC001AccountRegistrationTest---***
+09:04:06.278 [TestNG-tests-1] INFO  testCases.TC001AccountRegistrationTest - ********-validating registraion success message --TC001AccountRegistrationTest---***
+09:04:07.532 [TestNG-tests-2] INFO  testCases.TC001AccountRegistrationTest - ********-validating registraion success message --TC001AccountRegistrationTest---***
+09:07:19.655 [TestNG-tests-1] INFO  testCases.TC001AccountRegistrationTest - ********-Starting-execution for --TC001AccountRegistrationTest---***
+09:07:19.662 [TestNG-tests-1] INFO  testCases.TC001AccountRegistrationTest - ********- Navigating to registraion page--TC001AccountRegistrationTest---***
+09:07:19.866 [TestNG-tests-1] INFO  testCases.TC001AccountRegistrationTest - ********-providing data in to registration form for --TC001AccountRegistrationTest---***
+09:07:22.325 [TestNG-tests-1] INFO  testCases.TC001AccountRegistrationTest - ********-validating registraion success message --TC001AccountRegistrationTest---***
+09:11:42.890 [TestNG-tests-1] INFO  testCases.TC001AccountRegistrationTest - ********-Starting-execution for --TC001AccountRegistrationTest---***
+09:11:42.896 [TestNG-tests-1] INFO  testCases.TC001AccountRegistrationTest - ********- Navigating to registraion page--TC001AccountRegistrationTest---***
+09:11:43.101 [TestNG-tests-1] INFO  testCases.TC001AccountRegistrationTest - ********-providing data in to registration form for --TC001AccountRegistrationTest---***
+09:11:43.625 [TestNG-tests-2] INFO  testCases.TC001AccountRegistrationTest - ********-Starting-execution for --TC001AccountRegistrationTest---***
+09:11:43.625 [TestNG-tests-2] INFO  testCases.TC001AccountRegistrationTest - ********- Navigating to registraion page--TC001AccountRegistrationTest---***
+09:11:44.002 [TestNG-tests-2] INFO  testCases.TC001AccountRegistrationTest - ********-providing data in to registration form for --TC001AccountRegistrationTest---***
+09:11:45.524 [TestNG-tests-1] INFO  testCases.TC001AccountRegistrationTest - ********-validating registraion success message --TC001AccountRegistrationTest---***
+09:11:46.503 [TestNG-tests-2] INFO  testCases.TC001AccountRegistrationTest - ********-validating registraion success message --TC001AccountRegistrationTest---***

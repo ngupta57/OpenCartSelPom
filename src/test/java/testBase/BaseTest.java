@@ -6,23 +6,43 @@ import org.apache.logging.log4j.LogManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.*;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
+//import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseTest{	
 	public WebDriver driver;
 	
 	public Logger logger;
 	@BeforeClass
-	public void setUp() throws InterruptedException
+	@Parameters("browser")
+	public void setUp(String br) throws InterruptedException
 	{	
 		logger = LogManager.getLogger(this.getClass());
-		//ChromeOptions options=new ChromeOptions();
-		//options.setExperimentalOption("excludeSwitches",new String[] {"enable-automation"});	
-		  WebDriverManager.chromedriver().setup();		
-		  ChromeOptions chromeOptions = new ChromeOptions();
-		  chromeOptions.addArguments("--remote-allow-origins=*","ignore-certificate-errors");
-		  driver =new ChromeDriver(chromeOptions);
+	
+				
+		if(br.equals("chrome"))
+		{
+			  ChromeOptions chromeOptions = new ChromeOptions();
+			  chromeOptions.addArguments("--remote-allow-origins=*","ignore-certificate-errors");
+			  WebDriverManager.chromedriver().setup();
+			  driver =new ChromeDriver(chromeOptions);
+		}
+		else if (br.equals("Firefox"))
+		{
+			WebDriverManager.firefoxdriver().setup();
+			driver =new FirefoxDriver();
+		}
+		else
+		{   
+			WebDriverManager.edgedriver().setup();
+			driver =new EdgeDriver();
+		
+		}
+		 
 		  driver.manage().deleteAllCookies();
 		  driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		  driver.get("http://localhost/opencart/upload/index.php");
