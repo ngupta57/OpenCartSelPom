@@ -9,7 +9,7 @@
     </classes>
   </test> <!-- OpenCartTest -->
   <test thread-count="5" name="FirefoxTest">
-	<parameter name="browser" value="Firefox">
+	<parameter name="browser" value="firefox">
 	</parameter>
     <classes>
       <class name="testCases.TC001AccountRegistrationTest"/>

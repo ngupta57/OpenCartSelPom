@@ -7,6 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.*;
 
@@ -31,25 +32,21 @@ public class BaseTest{
 			  WebDriverManager.chromedriver().setup();
 			  driver =new ChromeDriver(chromeOptions);
 		}
-		else if (br.equals("Firefox"))
-		{
-			WebDriverManager.firefoxdriver().setup();
-			driver =new FirefoxDriver();
+		else if (br.equals("firefox"))
+		{	WebDriverManager.firefoxdriver().setup();	
+			driver = new FirefoxDriver();
 		}
 		else
 		{   
 			WebDriverManager.edgedriver().setup();
-			driver =new EdgeDriver();
-		
-		}
-		 
+			driver =new EdgeDriver();		
+		}		 
 		  driver.manage().deleteAllCookies();
 		  driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		  driver.get("http://localhost/opencart/upload/index.php");
 		  Thread.sleep(3000);
 		  System.out.println("Browser Launched & nnavigated to URL");
-		  driver.manage().window().maximize();	  
-		
+		  driver.manage().window().maximize();			
 	}
 	
 	@AfterClass
