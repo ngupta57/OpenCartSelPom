@@ -20,7 +20,7 @@ public class TC001AccountRegistrationTest extends BaseTest {
 		logger.info("********-providing data in to registration form for --TC001AccountRegistrationTest---***" );
 		accountReg.setFirstName(randomeString().toUpperCase());
 		accountReg.setlastName(randomeString().toUpperCase());
-		accountReg.seteMail(randomeString()+"@gmail.com");// randomly generated the email
+		//accountReg.seteMail(randomeString()+"@gmail.com");// randomly generated the email
 		accountReg.setTelPhone(randomeNumber());
 		String password=randomAlphaNumeric();
 		accountReg.setPassword(password);	

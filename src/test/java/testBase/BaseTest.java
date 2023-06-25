@@ -1,28 +1,36 @@
 package testBase;
+import java.io.File;
+import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.time.Duration;
+import java.util.ResourceBundle;
+import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
-import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.*;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-//import io.github.bonigarcia.wdm.WebDriverManager;
+
 
 public class BaseTest{	
-	public WebDriver driver;
-	
+	public static WebDriver driver;
 	public Logger logger;
+	public ResourceBundle rb ;// for reading values from config file
 	@BeforeClass
 	@Parameters("browser")
 	public void setUp(String br) throws InterruptedException
 	{	
 		logger = LogManager.getLogger(this.getClass());
+		rb = ResourceBundle.getBundle("config");
 	
 				
 		if(br.equals("chrome"))
@@ -43,7 +51,7 @@ public class BaseTest{
 		}		 
 		  driver.manage().deleteAllCookies();
 		  driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		  driver.get("http://localhost/opencart/upload/index.php");
+		  driver.get(rb.getString("appURL"));
 		  Thread.sleep(3000);
 		  System.out.println("Browser Launched & nnavigated to URL");
 		  driver.manage().window().maximize();			
@@ -69,5 +77,21 @@ public class BaseTest{
 		String num = RandomStringUtils.randomNumeric(3);		
 		return (st+"@"+num);
 	}	
+	public String captureScreen(String tname) throws IOException {
+
+		String timeStamp = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
+				
+		TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
+		File source = takesScreenshot.getScreenshotAs(OutputType.FILE);
+		String destination = System.getProperty("user.dir") + "\\screenshots\\" + tname + "_" + timeStamp + ".png";
+
+		try {
+			FileUtils.copyFile(source, new File(destination));
+		} catch (Exception e) {
+			e.getMessage();
+		}
+		return destination;
+
+	}
 
 }
