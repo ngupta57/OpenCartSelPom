@@ -138,3 +138,8 @@
 22:45:28.375 [main] INFO  testCases.TC001AccountRegistrationTest - ********- Navigating to registraion page--TC001AccountRegistrationTest---***
 22:45:28.752 [main] INFO  testCases.TC001AccountRegistrationTest - ********-providing data in to registration form for --TC001AccountRegistrationTest---***
 22:45:39.200 [main] INFO  testCases.TC001AccountRegistrationTest - ********-validating registraion success message --TC001AccountRegistrationTest---***
+16:44:23.604 [main] INFO  testCases.TC002LoginTest - ********-Starting-execution for --TC002LOGINTest---***
+16:44:23.782 [main] INFO  testCases.TC002LoginTest - ********-Arrived at Login page --TC002LOGINTest---***
+16:44:23.783 [main] INFO  testCases.TC002LoginTest - ********-providing data in to login page from config.property file---***
+16:44:24.023 [main] INFO  testCases.TC002LoginTest - ********-validating my account page for header text ---***
+16:44:24.025 [main] INFO  testCases.TC002LoginTest - ********-Finished RUNNING tC002-lOGIN tEST ---***
