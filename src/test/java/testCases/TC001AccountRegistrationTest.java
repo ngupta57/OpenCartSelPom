@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 import pageObject.AccountRegistrationPage;
 
 public class TC001AccountRegistrationTest extends BaseTest {   
-	@Test	
+	@Test(groups={"Sanity","Master"})	
 	public void accountRegistrationTest()throws InterruptedException
 	{	
 		logger.info("********-Starting-execution for --TC001AccountRegistrationTest---***" );

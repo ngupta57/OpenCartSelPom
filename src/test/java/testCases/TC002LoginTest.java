@@ -9,7 +9,7 @@ import pageObject.AccountRegistrationPage;
 
 public class TC002LoginTest extends BaseTest {   
 	
-	@Test	
+	@Test(groups={"Regression","Master"})	
 	public void LoginTest()throws InterruptedException
 	{	
 		logger.info("********-Starting-execution for --TC002LOGINTest---***" );

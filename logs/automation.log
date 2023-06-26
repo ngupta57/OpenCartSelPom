@@ -155,3 +155,36 @@
 00:18:41.507 [main] INFO  testCases.TC003LoginTest_DDT - ********-Starting-TC003LoginTest_DDT---***
 00:18:41.640 [main] INFO  testCases.TC003LoginTest_DDT - ********-providing data in to login page from data provider---***
 00:18:42.041 [main] INFO  testCases.TC003LoginTest_DDT - ********-Finished RUNNING -TC003LoginTest_DDT ---***
+12:44:23.480 [main] INFO  testCases.TC003LoginTest_DDT - ********-Starting-TC003LoginTest_DDT---***
+12:44:23.702 [main] INFO  testCases.TC003LoginTest_DDT - ********-providing data in to login page from data provider---***
+12:44:24.223 [main] INFO  testCases.TC003LoginTest_DDT - ********-Finished RUNNING -TC003LoginTest_DDT ---***
+12:44:24.230 [main] INFO  testCases.TC003LoginTest_DDT - ********-Starting-TC003LoginTest_DDT---***
+12:44:24.356 [main] INFO  testCases.TC003LoginTest_DDT - ********-providing data in to login page from data provider---***
+12:44:34.574 [main] INFO  testCases.TC003LoginTest_DDT - ********-Finished RUNNING -TC003LoginTest_DDT ---***
+12:44:34.575 [main] INFO  testCases.TC003LoginTest_DDT - ********-Starting-TC003LoginTest_DDT---***
+12:44:34.721 [main] INFO  testCases.TC003LoginTest_DDT - ********-providing data in to login page from data provider---***
+12:44:44.934 [main] INFO  testCases.TC003LoginTest_DDT - ********-Finished RUNNING -TC003LoginTest_DDT ---***
+12:44:44.934 [main] INFO  testCases.TC003LoginTest_DDT - ********-Starting-TC003LoginTest_DDT---***
+12:44:45.105 [main] INFO  testCases.TC003LoginTest_DDT - ********-providing data in to login page from data provider---***
+12:44:45.496 [main] INFO  testCases.TC003LoginTest_DDT - ********-Finished RUNNING -TC003LoginTest_DDT ---***
+12:58:34.068 [main] INFO  testCases.TC003LoginTest_DDT - ********-Starting-TC003LoginTest_DDT---***
+12:58:34.258 [main] INFO  testCases.TC003LoginTest_DDT - ********-providing data in to login page from data provider---***
+12:58:34.610 [main] INFO  testCases.TC003LoginTest_DDT - ********-Finished RUNNING -TC003LoginTest_DDT ---***
+12:58:34.617 [main] INFO  testCases.TC003LoginTest_DDT - ********-Starting-TC003LoginTest_DDT---***
+12:58:34.735 [main] INFO  testCases.TC003LoginTest_DDT - ********-providing data in to login page from data provider---***
+12:58:44.890 [main] INFO  testCases.TC003LoginTest_DDT - ********-Finished RUNNING -TC003LoginTest_DDT ---***
+12:58:44.891 [main] INFO  testCases.TC003LoginTest_DDT - ********-Starting-TC003LoginTest_DDT---***
+12:58:45.068 [main] INFO  testCases.TC003LoginTest_DDT - ********-providing data in to login page from data provider---***
+12:58:55.315 [main] INFO  testCases.TC003LoginTest_DDT - ********-Finished RUNNING -TC003LoginTest_DDT ---***
+12:58:55.315 [main] INFO  testCases.TC003LoginTest_DDT - ********-Starting-TC003LoginTest_DDT---***
+12:58:55.495 [main] INFO  testCases.TC003LoginTest_DDT - ********-providing data in to login page from data provider---***
+12:58:55.873 [main] INFO  testCases.TC003LoginTest_DDT - ********-Finished RUNNING -TC003LoginTest_DDT ---***
+13:54:52.937 [main] INFO  testCases.TC001AccountRegistrationTest - ********-Starting-execution for --TC001AccountRegistrationTest---***
+13:54:52.944 [main] INFO  testCases.TC001AccountRegistrationTest - ********- Navigating to registraion page--TC001AccountRegistrationTest---***
+13:54:53.225 [main] INFO  testCases.TC001AccountRegistrationTest - ********-providing data in to registration form for --TC001AccountRegistrationTest---***
+13:55:03.567 [main] INFO  testCases.TC001AccountRegistrationTest - ********-validating registraion success message --TC001AccountRegistrationTest---***
+13:55:07.889 [main] INFO  testCases.TC002LoginTest - ********-Starting-execution for --TC002LOGINTest---***
+13:55:08.073 [main] INFO  testCases.TC002LoginTest - ********-Arrived at Login page --TC002LOGINTest---***
+13:55:08.074 [main] INFO  testCases.TC002LoginTest - ********-providing data in to login page from config.property file---***
+13:55:08.339 [main] INFO  testCases.TC002LoginTest - ********-validating my account page for header text ---***
+13:55:08.340 [main] INFO  testCases.TC002LoginTest - ********-Finished RUNNING tC002-lOGIN tEST ---***

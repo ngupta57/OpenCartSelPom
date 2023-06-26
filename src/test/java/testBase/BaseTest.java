@@ -25,7 +25,7 @@ public class BaseTest{
 	public static WebDriver driver;
 	public Logger logger;
 	public ResourceBundle rb ;// for reading values from config file
-	@BeforeClass
+	@BeforeClass(groups={"Sanity","Master","Regression"})
 	@Parameters("browser")
 	public void setUp(String br) throws InterruptedException
 	{	
@@ -57,7 +57,7 @@ public class BaseTest{
 		  driver.manage().window().maximize();			
 	}
 	
-	@AfterClass
+	@AfterClass(groups={"Sanity","Master","Regression"})
 	public void tearDown()
 	{
 		driver.quit();		
