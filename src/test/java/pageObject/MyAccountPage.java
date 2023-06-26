@@ -14,6 +14,13 @@ public class MyAccountPage extends BasePage {
 	@FindBy(xpath ="//*[@id=\"content\"]/h2[1]")
 	WebElement msgAccountHeader;
 	
+	@FindBy(xpath="//a[@class='list-group-item'][normalize-space()='Logout']")
+	WebElement lnk_logout;
+	
+	public void clickLogout() {
+		lnk_logout.click();
+	}
+	
 	public boolean checkMyAccountPage() {
 		try {
 		return (msgAccountHeader.isDisplayed());

@@ -8,7 +8,8 @@
 	<parameter name="browser" value="chrome"></parameter>
     <classes>
      <!-- <class name="testCases.TC001AccountRegistrationTest"/>-->
-      <class name="testCases.TC002LoginTest"/>
+     <!-- <class name="testCases.TC002LoginTest"/>-->
+     <class name="testCases.TC003LoginTest_DDT"/>
     </classes>
   </test> <!-- OpenCartTest -->
 </suite> <!-- OpenCartSuite -->

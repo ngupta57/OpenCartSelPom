@@ -143,3 +143,15 @@
 16:44:23.783 [main] INFO  testCases.TC002LoginTest - ********-providing data in to login page from config.property file---***
 16:44:24.023 [main] INFO  testCases.TC002LoginTest - ********-validating my account page for header text ---***
 16:44:24.025 [main] INFO  testCases.TC002LoginTest - ********-Finished RUNNING tC002-lOGIN tEST ---***
+00:18:20.207 [main] INFO  testCases.TC003LoginTest_DDT - ********-Starting-TC003LoginTest_DDT---***
+00:18:20.402 [main] INFO  testCases.TC003LoginTest_DDT - ********-providing data in to login page from data provider---***
+00:18:20.753 [main] INFO  testCases.TC003LoginTest_DDT - ********-Finished RUNNING -TC003LoginTest_DDT ---***
+00:18:20.759 [main] INFO  testCases.TC003LoginTest_DDT - ********-Starting-TC003LoginTest_DDT---***
+00:18:20.927 [main] INFO  testCases.TC003LoginTest_DDT - ********-providing data in to login page from data provider---***
+00:18:31.131 [main] INFO  testCases.TC003LoginTest_DDT - ********-Finished RUNNING -TC003LoginTest_DDT ---***
+00:18:31.131 [main] INFO  testCases.TC003LoginTest_DDT - ********-Starting-TC003LoginTest_DDT---***
+00:18:31.291 [main] INFO  testCases.TC003LoginTest_DDT - ********-providing data in to login page from data provider---***
+00:18:41.507 [main] INFO  testCases.TC003LoginTest_DDT - ********-Finished RUNNING -TC003LoginTest_DDT ---***
+00:18:41.507 [main] INFO  testCases.TC003LoginTest_DDT - ********-Starting-TC003LoginTest_DDT---***
+00:18:41.640 [main] INFO  testCases.TC003LoginTest_DDT - ********-providing data in to login page from data provider---***
+00:18:42.041 [main] INFO  testCases.TC003LoginTest_DDT - ********-Finished RUNNING -TC003LoginTest_DDT ---***
