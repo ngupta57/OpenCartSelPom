@@ -188,3 +188,112 @@
 13:55:08.074 [main] INFO  testCases.TC002LoginTest - ********-providing data in to login page from config.property file---***
 13:55:08.339 [main] INFO  testCases.TC002LoginTest - ********-validating my account page for header text ---***
 13:55:08.340 [main] INFO  testCases.TC002LoginTest - ********-Finished RUNNING tC002-lOGIN tEST ---***
+17:46:58.907 [main] INFO  testCases.TC001AccountRegistrationTest - ********-Starting-execution for --TC001AccountRegistrationTest---***
+17:46:58.915 [main] INFO  testCases.TC001AccountRegistrationTest - ********- Navigating to registraion page--TC001AccountRegistrationTest---***
+17:46:59.184 [main] INFO  testCases.TC001AccountRegistrationTest - ********-providing data in to registration form for --TC001AccountRegistrationTest---***
+17:47:09.489 [main] INFO  testCases.TC001AccountRegistrationTest - ********-validating registraion success message --TC001AccountRegistrationTest---***
+17:49:14.735 [TestNG-tests-1] INFO  testCases.TC001AccountRegistrationTest - ********-Starting-execution for --TC001AccountRegistrationTest---***
+17:49:14.741 [TestNG-tests-1] INFO  testCases.TC001AccountRegistrationTest - ********- Navigating to registraion page--TC001AccountRegistrationTest---***
+17:49:15.127 [TestNG-tests-1] INFO  testCases.TC001AccountRegistrationTest - ********-providing data in to registration form for --TC001AccountRegistrationTest---***
+17:49:15.574 [TestNG-tests-2] INFO  testCases.TC001AccountRegistrationTest - ********-Starting-execution for --TC001AccountRegistrationTest---***
+17:49:15.574 [TestNG-tests-2] INFO  testCases.TC001AccountRegistrationTest - ********- Navigating to registraion page--TC001AccountRegistrationTest---***
+17:49:25.579 [TestNG-tests-1] INFO  testCases.TC001AccountRegistrationTest - ********-validating registraion success message --TC001AccountRegistrationTest---***
+17:49:26.429 [TestNG-tests-2] INFO  testCases.TC001AccountRegistrationTest - ********-TC001AccountRegistrationTest failed---***
+17:51:40.307 [TestNG-tests-1] INFO  testCases.TC001AccountRegistrationTest - ********-Starting-execution for --TC001AccountRegistrationTest---***
+17:51:40.314 [TestNG-tests-1] INFO  testCases.TC001AccountRegistrationTest - ********- Navigating to registraion page--TC001AccountRegistrationTest---***
+17:51:40.736 [TestNG-tests-1] INFO  testCases.TC001AccountRegistrationTest - ********-providing data in to registration form for --TC001AccountRegistrationTest---***
+17:51:41.010 [TestNG-tests-2] INFO  testCases.TC001AccountRegistrationTest - ********-Starting-execution for --TC001AccountRegistrationTest---***
+17:51:41.010 [TestNG-tests-2] INFO  testCases.TC001AccountRegistrationTest - ********- Navigating to registraion page--TC001AccountRegistrationTest---***
+17:51:41.181 [TestNG-tests-2] INFO  testCases.TC001AccountRegistrationTest - ********-TC001AccountRegistrationTest failed---***
+17:51:51.189 [TestNG-tests-1] INFO  testCases.TC001AccountRegistrationTest - ********-validating registraion success message --TC001AccountRegistrationTest---***
+01:15:12.736 [main] INFO  testCases.TC001AccountRegistrationTest - ********-Starting-execution for --TC001AccountRegistrationTest---***
+01:15:12.745 [main] INFO  testCases.TC001AccountRegistrationTest - ********- Navigating to registraion page--TC001AccountRegistrationTest---***
+01:15:13.263 [main] INFO  testCases.TC001AccountRegistrationTest - ********-providing data in to registration form for --TC001AccountRegistrationTest---***
+01:15:23.727 [main] INFO  testCases.TC001AccountRegistrationTest - ********-validating registraion success message --TC001AccountRegistrationTest---***
+01:15:37.978 [main] INFO  testCases.TC003LoginTest_DDT - ********-Starting-TC003LoginTest_DDT---***
+01:15:38.205 [main] INFO  testCases.TC003LoginTest_DDT - ********-providing data in to login page from data provider---***
+01:15:38.716 [main] INFO  testCases.TC003LoginTest_DDT - ********-Finished RUNNING -TC003LoginTest_DDT ---***
+01:15:38.722 [main] INFO  testCases.TC003LoginTest_DDT - ********-Starting-TC003LoginTest_DDT---***
+01:15:38.859 [main] INFO  testCases.TC003LoginTest_DDT - ********-providing data in to login page from data provider---***
+01:15:49.053 [main] INFO  testCases.TC003LoginTest_DDT - ********-Finished RUNNING -TC003LoginTest_DDT ---***
+01:15:49.055 [main] INFO  testCases.TC003LoginTest_DDT - ********-Starting-TC003LoginTest_DDT---***
+01:15:49.220 [main] INFO  testCases.TC003LoginTest_DDT - ********-providing data in to login page from data provider---***
+01:15:59.436 [main] INFO  testCases.TC003LoginTest_DDT - ********-Finished RUNNING -TC003LoginTest_DDT ---***
+01:15:59.436 [main] INFO  testCases.TC003LoginTest_DDT - ********-Starting-TC003LoginTest_DDT---***
+01:15:59.612 [main] INFO  testCases.TC003LoginTest_DDT - ********-providing data in to login page from data provider---***
+01:16:00.036 [main] INFO  testCases.TC003LoginTest_DDT - ********-Finished RUNNING -TC003LoginTest_DDT ---***
+01:16:16.667 [main] INFO  testCases.TC001AccountRegistrationTest - ********-Starting-execution for --TC001AccountRegistrationTest---***
+01:16:16.673 [main] INFO  testCases.TC001AccountRegistrationTest - ********- Navigating to registraion page--TC001AccountRegistrationTest---***
+01:16:16.878 [main] INFO  testCases.TC001AccountRegistrationTest - ********-providing data in to registration form for --TC001AccountRegistrationTest---***
+01:16:27.272 [main] INFO  testCases.TC001AccountRegistrationTest - ********-validating registraion success message --TC001AccountRegistrationTest---***
+01:16:31.595 [main] INFO  testCases.TC002LoginTest - ********-Starting-execution for --TC002LOGINTest---***
+01:16:31.781 [main] INFO  testCases.TC002LoginTest - ********-Arrived at Login page --TC002LOGINTest---***
+01:16:31.783 [main] INFO  testCases.TC002LoginTest - ********-providing data in to login page from config.property file---***
+01:16:32.079 [main] INFO  testCases.TC002LoginTest - ********-validating my account page for header text ---***
+01:16:32.079 [main] INFO  testCases.TC002LoginTest - ********-Finished RUNNING tC002-lOGIN tEST ---***
+01:16:47.811 [TestNG-tests-1] INFO  testCases.TC001AccountRegistrationTest - ********-Starting-execution for --TC001AccountRegistrationTest---***
+01:16:47.819 [TestNG-tests-1] INFO  testCases.TC001AccountRegistrationTest - ********- Navigating to registraion page--TC001AccountRegistrationTest---***
+01:16:48.217 [TestNG-tests-1] INFO  testCases.TC001AccountRegistrationTest - ********-providing data in to registration form for --TC001AccountRegistrationTest---***
+01:16:48.487 [TestNG-tests-2] INFO  testCases.TC001AccountRegistrationTest - ********-Starting-execution for --TC001AccountRegistrationTest---***
+01:16:48.487 [TestNG-tests-2] INFO  testCases.TC001AccountRegistrationTest - ********- Navigating to registraion page--TC001AccountRegistrationTest---***
+01:16:58.636 [TestNG-tests-1] INFO  testCases.TC001AccountRegistrationTest - ********-validating registraion success message --TC001AccountRegistrationTest---***
+01:16:59.404 [TestNG-tests-2] INFO  testCases.TC001AccountRegistrationTest - ********-TC001AccountRegistrationTest failed---***
+01:17:43.659 [TestNG-tests-1] INFO  testCases.TC001AccountRegistrationTest - ********-Starting-execution for --TC001AccountRegistrationTest---***
+01:17:43.666 [TestNG-tests-1] INFO  testCases.TC001AccountRegistrationTest - ********- Navigating to registraion page--TC001AccountRegistrationTest---***
+01:17:44.082 [TestNG-tests-1] INFO  testCases.TC001AccountRegistrationTest - ********-providing data in to registration form for --TC001AccountRegistrationTest---***
+01:17:44.514 [TestNG-tests-2] INFO  testCases.TC001AccountRegistrationTest - ********-Starting-execution for --TC001AccountRegistrationTest---***
+01:17:44.514 [TestNG-tests-2] INFO  testCases.TC001AccountRegistrationTest - ********- Navigating to registraion page--TC001AccountRegistrationTest---***
+01:17:54.526 [TestNG-tests-1] INFO  testCases.TC001AccountRegistrationTest - ********-validating registraion success message --TC001AccountRegistrationTest---***
+01:17:54.934 [TestNG-tests-2] INFO  testCases.TC001AccountRegistrationTest - ********-providing data in to registration form for --TC001AccountRegistrationTest---***
+01:17:55.523 [TestNG-tests-2] INFO  testCases.TC001AccountRegistrationTest - ********-TC001AccountRegistrationTest failed---***
+01:18:16.210 [TestNG-tests-1] INFO  testCases.TC001AccountRegistrationTest - ********-Starting-execution for --TC001AccountRegistrationTest---***
+01:18:16.218 [TestNG-tests-1] INFO  testCases.TC001AccountRegistrationTest - ********- Navigating to registraion page--TC001AccountRegistrationTest---***
+01:18:16.633 [TestNG-tests-1] INFO  testCases.TC001AccountRegistrationTest - ********-providing data in to registration form for --TC001AccountRegistrationTest---***
+01:18:16.902 [TestNG-tests-2] INFO  testCases.TC001AccountRegistrationTest - ********-Starting-execution for --TC001AccountRegistrationTest---***
+01:18:16.902 [TestNG-tests-2] INFO  testCases.TC001AccountRegistrationTest - ********- Navigating to registraion page--TC001AccountRegistrationTest---***
+01:18:17.053 [TestNG-tests-2] INFO  testCases.TC001AccountRegistrationTest - ********-TC001AccountRegistrationTest failed---***
+01:18:27.063 [TestNG-tests-1] INFO  testCases.TC001AccountRegistrationTest - ********-validating registraion success message --TC001AccountRegistrationTest---***
+01:19:43.222 [main] INFO  testCases.TC003LoginTest_DDT - ********-Starting-TC003LoginTest_DDT---***
+01:19:43.391 [main] INFO  testCases.TC003LoginTest_DDT - ********-providing data in to login page from data provider---***
+01:19:43.734 [main] INFO  testCases.TC003LoginTest_DDT - ********-Finished RUNNING -TC003LoginTest_DDT ---***
+01:19:43.739 [main] INFO  testCases.TC003LoginTest_DDT - ********-Starting-TC003LoginTest_DDT---***
+01:19:43.887 [main] INFO  testCases.TC003LoginTest_DDT - ********-providing data in to login page from data provider---***
+01:19:54.103 [main] INFO  testCases.TC003LoginTest_DDT - ********-Finished RUNNING -TC003LoginTest_DDT ---***
+01:19:54.103 [main] INFO  testCases.TC003LoginTest_DDT - ********-Starting-TC003LoginTest_DDT---***
+01:19:54.275 [main] INFO  testCases.TC003LoginTest_DDT - ********-providing data in to login page from data provider---***
+01:20:04.510 [main] INFO  testCases.TC003LoginTest_DDT - ********-Finished RUNNING -TC003LoginTest_DDT ---***
+01:20:04.510 [main] INFO  testCases.TC003LoginTest_DDT - ********-Starting-TC003LoginTest_DDT---***
+01:20:04.668 [main] INFO  testCases.TC003LoginTest_DDT - ********-providing data in to login page from data provider---***
+01:20:05.053 [main] INFO  testCases.TC003LoginTest_DDT - ********-Finished RUNNING -TC003LoginTest_DDT ---***
+01:24:49.910 [main] INFO  testCases.TC003LoginTest_DDT - ********-Starting-TC003LoginTest_DDT---***
+01:24:50.083 [main] INFO  testCases.TC003LoginTest_DDT - ********-providing data in to login page from data provider---***
+01:24:50.497 [main] INFO  testCases.TC003LoginTest_DDT - ********-Finished RUNNING -TC003LoginTest_DDT ---***
+01:24:50.502 [main] INFO  testCases.TC003LoginTest_DDT - ********-Starting-TC003LoginTest_DDT---***
+01:24:50.637 [main] INFO  testCases.TC003LoginTest_DDT - ********-providing data in to login page from data provider---***
+01:25:00.810 [main] INFO  testCases.TC003LoginTest_DDT - ********-Finished RUNNING -TC003LoginTest_DDT ---***
+01:25:00.810 [main] INFO  testCases.TC003LoginTest_DDT - ********-Starting-TC003LoginTest_DDT---***
+01:25:00.976 [main] INFO  testCases.TC003LoginTest_DDT - ********-providing data in to login page from data provider---***
+01:25:11.200 [main] INFO  testCases.TC003LoginTest_DDT - ********-Finished RUNNING -TC003LoginTest_DDT ---***
+01:25:11.200 [main] INFO  testCases.TC003LoginTest_DDT - ********-Starting-TC003LoginTest_DDT---***
+01:25:11.392 [main] INFO  testCases.TC003LoginTest_DDT - ********-providing data in to login page from data provider---***
+01:25:11.766 [main] INFO  testCases.TC003LoginTest_DDT - ********-Finished RUNNING -TC003LoginTest_DDT ---***
+01:25:18.459 [main] INFO  testCases.TC001AccountRegistrationTest - ********-Starting-execution for --TC001AccountRegistrationTest---***
+01:25:18.460 [main] INFO  testCases.TC001AccountRegistrationTest - ********- Navigating to registraion page--TC001AccountRegistrationTest---***
+01:25:18.868 [main] INFO  testCases.TC001AccountRegistrationTest - ********-providing data in to registration form for --TC001AccountRegistrationTest---***
+01:25:29.315 [main] INFO  testCases.TC001AccountRegistrationTest - ********-validating registraion success message --TC001AccountRegistrationTest---***
+01:25:34.147 [main] INFO  testCases.TC001AccountRegistrationTest - ********-Starting-execution for --TC001AccountRegistrationTest---***
+01:25:34.147 [main] INFO  testCases.TC001AccountRegistrationTest - ********- Navigating to registraion page--TC001AccountRegistrationTest---***
+01:25:34.302 [main] INFO  testCases.TC001AccountRegistrationTest - ********-providing data in to registration form for --TC001AccountRegistrationTest---***
+01:25:44.653 [main] INFO  testCases.TC001AccountRegistrationTest - ********-validating registraion success message --TC001AccountRegistrationTest---***
+01:25:48.947 [main] INFO  testCases.TC002LoginTest - ********-Starting-execution for --TC002LOGINTest---***
+01:25:49.115 [main] INFO  testCases.TC002LoginTest - ********-Arrived at Login page --TC002LOGINTest---***
+01:25:49.115 [main] INFO  testCases.TC002LoginTest - ********-providing data in to login page from config.property file---***
+01:25:49.400 [main] INFO  testCases.TC002LoginTest - ********-validating my account page for header text ---***
+01:25:49.400 [main] INFO  testCases.TC002LoginTest - ********-Finished RUNNING tC002-lOGIN tEST ---***
+01:25:53.695 [TestNG-tests-1] INFO  testCases.TC001AccountRegistrationTest - ********-Starting-execution for --TC001AccountRegistrationTest---***
+01:25:53.695 [TestNG-tests-1] INFO  testCases.TC001AccountRegistrationTest - ********- Navigating to registraion page--TC001AccountRegistrationTest---***
+01:25:54.092 [TestNG-tests-1] INFO  testCases.TC001AccountRegistrationTest - ********-providing data in to registration form for --TC001AccountRegistrationTest---***
+01:26:04.510 [TestNG-tests-1] INFO  testCases.TC001AccountRegistrationTest - ********-validating registraion success message --TC001AccountRegistrationTest---***
+01:26:04.510 [TestNG-tests-2] INFO  testCases.TC001AccountRegistrationTest - ********-Starting-execution for --TC001AccountRegistrationTest---***
+01:26:04.510 [TestNG-tests-2] INFO  testCases.TC001AccountRegistrationTest - ********- Navigating to registraion page--TC001AccountRegistrationTest---***
+01:26:05.184 [TestNG-tests-2] INFO  testCases.TC001AccountRegistrationTest - ********-TC001AccountRegistrationTest failed---***

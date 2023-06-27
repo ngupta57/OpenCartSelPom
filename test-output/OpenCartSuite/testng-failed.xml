@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [OpenCartSuite]" guice-stage="DEVELOPMENT">
+<suite parallel="tests" name="Failed suite [OpenCartSuite]" guice-stage="DEVELOPMENT">
   <listeners>
     <listener class-name="utilities.ExtentReportManager"/>
   </listeners>
-  <test thread-count="5" name="OpenCartTest(failed)">
+  <test thread-count="5" parallel="tests" name="ChromeTest(failed)">
     <parameter name="browser" value="chrome"/>
-    <groups>
-      <run>
-        <include name="Master"/>
-      </run>
-    </groups>
     <classes>
       <class name="testCases.TC001AccountRegistrationTest">
         <methods>
@@ -20,5 +15,17 @@
         </methods>
       </class> <!-- testCases.TC001AccountRegistrationTest -->
     </classes>
-  </test> <!-- OpenCartTest(failed) -->
+  </test> <!-- ChromeTest(failed) -->
+  <test thread-count="5" parallel="tests" name="FirefoxTest(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="testCases.TC001AccountRegistrationTest">
+        <methods>
+          <include name="accountRegistrationTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testCases.TC001AccountRegistrationTest -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
 </suite> <!-- Failed suite [OpenCartSuite] -->
